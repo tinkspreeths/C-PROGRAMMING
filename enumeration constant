@@ -1,0 +1,11 @@
+increase readablity(boolean=0 or 1,months=2or 3 or 4...not looking goog right?) of a program ,instead of giving the numbers we can use this 
+for eg:
+enum boolean {no,yes}->here due to mentioning it as a boolean it will automatically convert into 1st value as 0 and the 2nd one as 1
+here,enum months{jan=1,feb,mar,apirl,......}after jan will be incremented by 1 which is feb=2,mar=3...if in between lets say jul=15 means 
+from aug it will be incremented by 1 where aug=16,sep=17....like that.
+
+
+
+
+we can use #define no
+# define yes.....but for each and evry  name we have to specify that one and also it is not having any scope rules..
