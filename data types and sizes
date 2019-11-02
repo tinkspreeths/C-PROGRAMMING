@@ -1,0 +1,18 @@
+*we can have datatype variable as --a-z,A-Z,0-9,_,but we cannot start with 0-9or _,in which means inbetween we can have them so,always strt
+variable by alphabets either a-z or A-Z.
+*datatypes:
+$char-each and every character has a 8 bits or 1 byte from 0-255 every decimal will converted into character
+$ int-integer size depends on what hardware am i using compiler am i using based on  that.
+$float-floating numbers-each should have atleast 32 bits and some other machines can also have beyond 32 bits.->floating point precision.
+$double-floating numbers-each should have atleast 64 bits and some other machines can also have beyond 64 bits.->double  precision.
+
+qualifiers:
+short int;
+long int
+short float;
+long float
+1.short
+2.int
+3.long
+
+using sizeof(int)we can check the size of our datatypes enrolled in  our system.
