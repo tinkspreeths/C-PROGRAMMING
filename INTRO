@@ -1,0 +1,32 @@
+programming is an "high level language"which will be understood by us(human beings) but not by the machines.machines will understand only 
+0's and 1's.how this will be converted there occurs a huge process 
+lets see it one by one....
+1.program->pre-processor-this will remove comments and libraries files and explore their content in brief pure high level language->
+compiler->assembly language->loading and linking other files eg.,for printf another file will be containing explanation will be done by 
+loader and linker.->machine understandable language.that's it.
+
+
+
+FORMAT SPECIFIERS:
+%d-decimal value
+%6d- six spaces decimal values
+%f-floating values
+%6f-six space floating values
+%6.2f-atleast there shld be two values after the (.)
+%c-ascii characters
+
+
+I/P AND O/P STRREAM
+#include <stdio.h>
+
+int main() {
+     int c;
+     while((c=getchar())!=EOF)
+     putchar(c);
+	return 0;
+}
+
+input:
+preethi
+output:
+preethi
