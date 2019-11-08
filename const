@@ -1,0 +1,5 @@
+here,without variable if the constants are given we shld be able to detect which dtattype it belongs to
+if we want a var to be constant always lets say pi=3.14 and we want to use it in several lines of the program then,declare it as
+const int pi;
+or #define pi;
+in 2nd declaration,the preprocesor will change it to as constant that is as value and then it will use it.
