@@ -1,0 +1,7 @@
+in string last is\0""
+int character no\0 and it returns ascii value of it.''if we convert it into integer.
+"a"+10->error
+but'a'+10 returns 106 .
+
+
+
