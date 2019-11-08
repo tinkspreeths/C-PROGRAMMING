@@ -1,0 +1,8 @@
+now we r looking about the type casting in c programming is very friendly not like in java 
+/*we can either use it explicitely or compiler is going to be do it for you.either for converting
+it into big byte to short byte or short byte to long byte 
+here,a=b means assigning b to a then int a=(int)b or dont want.
+if we are using two variables and passing the funtion var  as int and other one as float then
+also we r going to make two var as same data type.bcz,two var pointing to same value.
+if we r calculating some mathematical expression we dono what the type the value might return then,we can explicitely say what type it should 
+be converted either in int or float or double etc.,
