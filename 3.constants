@@ -1,0 +1,16 @@
+#include <stdio.h>
+/*#include <limits.h>
+#include <float.h>*/
+
+int main() {
+    # define  i 1
+    const int j=2;
+    printf("%d",i);
+
+	return 0;
+}
+
+
+
+
+1
