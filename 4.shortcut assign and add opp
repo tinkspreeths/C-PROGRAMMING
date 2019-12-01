@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int a=89;
+	a+=(int)456+((234+567)/(5678-987)*(5657%3658));
+	printf("%d",a);
+	return 0;
+}
+
+
+
+
+545
