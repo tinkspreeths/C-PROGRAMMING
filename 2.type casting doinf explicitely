@@ -1,0 +1,15 @@
+#include <stdio.h>
+/*#include <limits.h>
+#include <float.h>*/
+
+int main() {
+    int i=1;
+	i=(int)3.890/980+3.4+2.89;
+	printf("%d",i);
+	return 0;
+}
+
+
+
+
+6
