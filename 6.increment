@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    int a=89;
+	int b=67;
+b= a++;
+	printf("%d\n",b);
+	b=++a;
+		printf("%d",b);
+
+	return 0;
+}
+
+
+
+89
+91
