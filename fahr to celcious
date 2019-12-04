@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+int main() {
+    int fahr,celsious;
+    int low,upp,step;
+    low=0;
+    upp=300;
+    step=20;
+    fahr=low;
+    while(fahr<=upp)
+    {
+        celsious=5*(fahr-32/9);
+        printf("%d\t%d\n",fahr,celsious);
+        fahr=fahr+step;
+    }
+
+
+	return 0;
+}
+
+
+0	-15
+20	85
+40	185
+60	285
+80	385
+100	485
+120	585
+140	685
+160	785
+180	885
+200	985
+220	1085
+240	1185
+260	1285
+280	1385
+300	1485
