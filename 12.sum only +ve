@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    int n,i=0,sum=0;
+   while(i<5)
+   {
+       scanf("%d",&n);
+       i++;
+       if(n<=0)
+       {
+           continue;
+       }
+        sum=sum+n;
+       
+      
+   }
+   printf("%d",sum);
+	return 0;
+}
+
+
+345                                                                                                                           
+6780                                                                                                                          
+0                                                                                                                             
+-90                                                                                                                           
+-89                                                                                                                           
+7125
