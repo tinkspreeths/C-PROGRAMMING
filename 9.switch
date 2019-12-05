@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main() {
+    
+    int weekend;
+    printf("enter number from 0 to 6");
+    scanf("%d",&weekend);
+    switch(weekend)
+    {
+        case 0:
+        printf("monday");
+        break;
+        case 1:
+        printf("tuesday");
+        break;
+        case 2:
+        printf("wednesday");
+        break;
+        case 3:
+        printf("thursday");
+        break;
+        case 4:
+        printf("friday");
+        break;
+        case 5:
+        printf("saturday");
+        break;
+        case 6:
+        printf("sunday");
+        break;
+        default:
+        printf("invalid number");
+        
+    }
+	return 0;
+}
+
+
+
+enter number from 0 to 6                                                                                                      
+56                                                                                                                            
+invalid number 
