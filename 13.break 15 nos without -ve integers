@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+	int a,b;
+	for(int i=0;i<15;i++)
+	{
+	    scanf("%d",&a);
+	    if(a<=0)
+	    {
+	        break;
+	    }
+	    printf("%d",a);
+	}
+	return 0;
+}
+
+
+23                                                                                                                            
+34                                                                                                                            
+45 6 7 8 9                                                                                                                    
+56789 -19 
