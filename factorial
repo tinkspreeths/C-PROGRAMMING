@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    unsigned long long fact=1;
+    int n;
+    scanf("%d",&n);
+    if(n<=0)
+    {
+        printf("invalid");
+        
+    }
+    else
+    {
+        for(int i=1;i<=n;i++){
+        fact=fact*i;
+        }
+        printf("%llu",fact);
+    }
+    
+    
+return 5;
+}
+
+
+50                                                                                                                            
+15188249005818642432 
